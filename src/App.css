@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+  margin: 0;
+}
+#headline{
+  font-family: "Bangers", system-ui;
+  border: 1px solid black;
+  width: auto;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #9aa2af;
+  color: rgb(255, 255, 255);
+  border: 1px solid #8ea3c5;
+  
+}
+#body{
+  /* border: 1px solid black; */
+  height: 37rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+#member {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  justify-content: center;
+  padding-left: 1px;
+}
+#body #member,#details {
+  border:1px solid rgb(225, 237, 225);
+  width: 25rem;
+  height: 27rem;
+  overflow: hidden;
+
+}
+.mem-img{
+  height: 4rem;
+  border-radius:50% ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.mem-list-con {
+  width: auto;
+  height:5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+
+}
+.name-occu{
+  width: auto;
+  font-family: "Andika", sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+
+}
+.mem-list-con button{
+  margin-right:4px;
+  margin-left: auto;
+  justify-self: end;
+  width: 4.5rem;
+  height:2rem;
+  border:1px solid #daa520;
+  background-color: #daa520;
+  border-radius: 10px;
+}
+#details {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 1rem;
+}
+#details-img {
+  height: 8rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+#details-name{
+  font-family: "Acme", sans-serif;
+  font-size: 2rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
+#details-occu {
+  margin-top: 0.2rem;
+  font-size: 1.2rem;
+  font-family: "Darker Grotesque", sans-serif;
+}
+#profiles {
+  width: 22rem;
+  height: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile-img img {
+  height: 2rem;
+}
